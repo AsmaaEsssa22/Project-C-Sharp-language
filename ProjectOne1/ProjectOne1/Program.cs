@@ -28,7 +28,7 @@ namespace ProjectOne1
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("  \t\t    ******************************************************");
             Console.WriteLine("  \t\t    *                                                    *");
-            Console.WriteLine("  \t\t    *    Welcome to Rainbow School System Management!!   *");
+            Console.WriteLine("  \t\t    *    Welcome to Rainbow School Management System!!   *");
             Console.WriteLine("  \t\t    *                                                    *");
             Console.WriteLine("  \t\t    ******************************************************");
             Console.ForegroundColor = ConsoleColor.Green;
