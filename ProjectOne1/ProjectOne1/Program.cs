@@ -172,7 +172,7 @@ namespace ProjectOne1
             Console.Write("1-Retrive teacher data from ID \n2-Retrive all teachers data\n==> ");
             Console.ForegroundColor = ConsoleColor.White;
             int n = int.Parse(Console.ReadLine());
-            string filenm = @"C: \Users\DELL\Desktop\NewF\ProjectOne.txt";
+            string filenm = @"C:\Users\DELL\Desktop\ProjevtOneC#\ProjectOne.txt";
             switch (n)
             {
                 case 1:
@@ -187,6 +187,7 @@ namespace ProjectOne1
                             List<string> tList = File.ReadAllLines(filenm).ToList();
                             TextReader trr = new StreamReader(filenm);
                             Console.WriteLine(tList[find - 1]);
+                            Console.WriteLine();
                         }
                         catch (Exception e)
                         {
