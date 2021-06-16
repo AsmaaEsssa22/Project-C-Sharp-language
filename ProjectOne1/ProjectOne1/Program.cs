@@ -26,11 +26,11 @@ namespace ProjectOne1
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("  \t\t\t\t    **************************************");
-            Console.WriteLine("  \t\t\t\t    *                                    *");
-            Console.WriteLine("  \t\t\t\t    *     Welcome to Rainbow School!!    *");
-            Console.WriteLine("  \t\t\t\t    *                                    *");
-            Console.WriteLine("  \t\t\t\t    **************************************");
+            Console.WriteLine("  \t\t\t\t    ******************************************************");
+            Console.WriteLine("  \t\t\t\t    *                                                    *");
+            Console.WriteLine("  \t\t\t\t    *    Welcome to Rainbow School System Management!!   *");
+            Console.WriteLine("  \t\t\t\t    *                                                    *");
+            Console.WriteLine("  \t\t\t\t    ******************************************************");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("\nEnter your password: ");
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
