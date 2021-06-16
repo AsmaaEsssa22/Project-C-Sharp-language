@@ -26,11 +26,11 @@ namespace ProjectOne1
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("  \t\t\t\t    ******************************************************");
-            Console.WriteLine("  \t\t\t\t    *                                                    *");
-            Console.WriteLine("  \t\t\t\t    *    Welcome to Rainbow School System Management!!   *");
-            Console.WriteLine("  \t\t\t\t    *                                                    *");
-            Console.WriteLine("  \t\t\t\t    ******************************************************");
+            Console.WriteLine("  \t\t    ******************************************************");
+            Console.WriteLine("  \t\t    *                                                    *");
+            Console.WriteLine("  \t\t    *    Welcome to Rainbow School System Management!!   *");
+            Console.WriteLine("  \t\t    *                                                    *");
+            Console.WriteLine("  \t\t    ******************************************************");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("\nEnter your password: ");
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -53,7 +53,7 @@ namespace ProjectOne1
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("Choose your option from menu: ");
                     Console.ForegroundColor = ConsoleColor.White;
-                    int option = int.Parse(Console.ReadLine());
+                    int option = Convert.ToInt32((Console.ReadLine()));
 
                     if (option == 1)
                     {
